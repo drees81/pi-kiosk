@@ -28,7 +28,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
 URL=https://www.youtube.com/embed/live_stream?channel=UC2jh1CcUo70B2Y7m9XaXCAQ&amp;autoplay=1;rel=0;fs=0;autohide=0;hd=0
 
 # Start browser in kiosk mode
-chromium-browser --kiosk $URL
+chromium-browser --kiosk --autoplay-policy=no-user-gesture-required $URL
 ````
 
 Set executable bit for kiosk script:
