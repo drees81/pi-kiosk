@@ -1,7 +1,7 @@
 # pi-kiosk
 
 
-Start with [2018-11-13-raspbian-stretch-full](https://downloads.raspberrypi.org/raspbian_full_latest)
+Start with [2018-11-13-raspbian-stretch-full](https://downloads.raspberrypi.org/raspbian_full_latest). Autologin for user `pi` is activated by default.
 
 
 ### Install packages
