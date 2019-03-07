@@ -11,7 +11,7 @@ sudo apt-get install chromium-browser unclutter
 
 
 ### Enable autostart of video in Chrome
-
+(not yet working)
 - Open `chromium-browser` and type `chrome://flags/#autoplay-policy` into address bar.
 - Change _Autoplay policy_ from _Default_ to _No user gesture is required_
 
