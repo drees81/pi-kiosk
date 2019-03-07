@@ -9,6 +9,13 @@ Start with [2018-11-13-raspbian-stretch-full](https://downloads.raspberrypi.org/
 sudo apt-get install chromium-browser unclutter
 ````
 
+
+### Enable autostart of video in Chrome
+
+- Open `chromium-browser` and type `chrome://flags/#autoplay-policy` into address bar.
+- Change _Autoplay policy_ from _Default_ to _No user gesture is required_
+
+
 ### kiosk script
 
 Use `nano /home/pi/kiosk.sh` to create the following script:
@@ -37,6 +44,7 @@ chmod +x /home/pi/kiosk.sh
 ````
 
 ### Add kiosk script to autostart
+
 ````bash
 mkdir -p /home/pi/.config/autostart
 nano /home/pi/.config/autostart/kiosk.desktop
